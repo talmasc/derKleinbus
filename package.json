@@ -10,7 +10,7 @@
     "start": "npm run server",
     "dev": "webpack-dev-server --open",
     "initialize": "babel-node src/server/initialize-db",
-    "server": "cross-env NODE_ENV=production babel-node src/server",
+    "server": "babel-node src/server/server",
     "server-test": "babel-node src/server/server.spec",
     "start-dev": "concurrently \"npm run server\" \"npm run dev\""
   },
