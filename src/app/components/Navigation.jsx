@@ -6,7 +6,7 @@ const Navigation = ()=>(
     <div>
         <Link to="/dashboard">
             <h1>
-                My Application
+                To Do App
             </h1>
         </Link>
     </div>
